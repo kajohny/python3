@@ -1,4 +1,4 @@
-ef func(input_char, i = 0):
+def func(input_char, i = 0):
     if i == len(input_char):
         print("".join(input_char))
     for j in range(i, len(input_char)):
